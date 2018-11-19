@@ -1,0 +1,47 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "cache": true,
+    "colors": true,
+    "donate-level": 5,
+    "log-file": null,
+    "opencl-platform": "AMD",
+    "pools": [
+        {
+            "url": "donate2.graef.in:80",
+            "user": "YOUR_WALLET",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "threads": null,
+    "user-agent": null,
+    "syslog": false,
+    "watch": false,
+    "cc-client": {
+        "url": "localhost:3344",
+        "use-tls" : false,
+        "access-token": "mySecret",
+        "worker-id": null,
+        "update-interval-s": 10,
+        "use-remote-logging" : true,
+        "upload-config-on-startup" : true
+    }
+}
