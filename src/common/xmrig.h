@@ -5,6 +5,7 @@
  * Copyright 2014-2016 Wolf9466    <https://github.com/OhGodAPet>
  * Copyright 2016      Jay D Dee   <jayddee246@gmail.com>
  * Copyright 2017-2018 XMR-Stak    <https://github.com/fireice-uk>, <https://github.com/psychocrypt>
+ * Copyright 2018      SChernykh   <https://github.com/SChernykh>
  * Copyright 2016-2018 XMRig       <https://github.com/xmrig>, <support@xmrig.com>
  *
  *   This program is free software: you can redistribute it and/or modify
@@ -68,6 +69,7 @@ enum Variant {
     VARIANT_XAO  = 6,  // Modified CryptoNight variant 0 (Alloy only)
     VARIANT_RTO  = 7,  // Modified CryptoNight variant 1 (Arto only)
     VARIANT_2    = 8,  // CryptoNight variant 2
+    VARIANT_XFH  = 9,  // CryptoNight variant xfh/swap aka cn-heavy-superfast
     VARIANT_MAX
 };
 
@@ -99,6 +101,7 @@ enum Assembly {
     ASM_AUTO,
     ASM_INTEL,
     ASM_RYZEN,
+    ASM_BULLDOZER,
     ASM_MAX
 };
 
