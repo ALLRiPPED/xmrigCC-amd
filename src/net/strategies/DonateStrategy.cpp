@@ -58,6 +58,8 @@ DonateStrategy::DonateStrategy(int level, const char *user, xmrig::Algo algo, IS
         m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
     } else if (algo == xmrig::Algo::CRYPTONIGHT_LITE) {
         m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
+    } else if (algo == xmrig::Algo::CRYPTONIGHT_ULTRALITE) {
+        m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
     } else {
         m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
     }
@@ -65,6 +67,8 @@ DonateStrategy::DonateStrategy(int level, const char *user, xmrig::Algo algo, IS
     if (algo == xmrig::Algo::CRYPTONIGHT_HEAVY) {
         m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
     } else if (algo == xmrig::Algo::CRYPTONIGHT_LITE) {
+        m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
+    } else if (algo == xmrig::Algo::CRYPTONIGHT_ULTRALITE) {
         m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
     } else {
         m_pools.push_back(Pool("pool.supportxmr.com", 3333, "48HjS1EAUp54tgTeugxywuWtJCZ3atCJwHUgZyPjsySjJgjp5R6iuQN3PFFWtnTVaj6SaCm1RzvtYG23QM37mMswFCLFnX4", "donate", false, false, true));
